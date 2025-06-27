@@ -1,5 +1,5 @@
 {% set name = "owa-cli" %}
-{% set version = "0.4.1" %}
+{% set version = "0.5.1" %}
 {% set python_min = "3.11" %}
 
 package:
@@ -8,7 +8,7 @@ package:
 
 source:
   url: https://pypi.org/packages/source/{{ name[0] }}/{{ name }}/owa_cli-{{ version }}.tar.gz
-  sha256: 5ee6820ef503e45d7c68c25b3a73c0424e326b990e9ec8ba868cb82e083a3e7c
+  sha256: ff8d4cbb952270c178ae4e61f121e3b15009b25b80304be821729b63a4e261a9
 
 build:
   entry_points:
